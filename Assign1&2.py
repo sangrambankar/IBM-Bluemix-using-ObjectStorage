@@ -24,12 +24,12 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1] in app.config['ALLOWED_EXTENSIONS']
 	
 
-user = 'Admin_0871831ad538d5841e646b81e2786bcebacb9154'
-password = 'TC70{PEQ#fo]LX]0'
-projectid = 'ccd7e61b8ca8405c96442fe8f0f4291f'
-regionname = 'dallas'
-userid="e281c68c22404126b6406357b6c5190f"
-project="object_storage_d92e0337_30ef_4684_9a8c_d7bf2d01c08e"
+user = ''
+password = ''
+projectid = ''
+regionname = ''
+userid=""
+project=""
 
 
 connection = swiftclient.Connection(
